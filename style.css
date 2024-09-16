@@ -15,15 +15,15 @@ body{
 .box{
     height: 400px;
     width:400px;
-    background-color: teal;
+    background-color: yellow;
     position: relative;
 }
 
 .box h2{
     text-align: center;
-    color: white;
+    color: red;
     padding: 10px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid red;
 }
 
 label,input{
