@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: grey;
+    display: grid;
+    place-items: center;
+}
+
+.box{
+    height: 400px;
+    width:400px;
+    background-color: gold;
+    position: relative;
+}
+
+.box h2{
+    text-align: center;
+    color: brown;
+    padding: 10px;
+    border-bottom: 2px solid brown;
+}
+
+label,input{
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-weight: bold;
+}
+
+.name_ipt{
+    margin-left: 32px;
+}
+
+.check_ipt{
+    margin-left: 105px;
+}
+
+label:last-of-type{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+button{
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    position: absolute;
+}
+
+button:first-of-type{
+    background-color: green;
+    left: 100px;
+    bottom: 50px;
+}
+button:last-of-type{
+    background-color: red;
+    right: 100px;
+    bottom: 50px;
+}
